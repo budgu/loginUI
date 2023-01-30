@@ -1,0 +1,22 @@
+
+.loginBox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100px;
+    min-height: 100px;
+
+}
+
+input{
+    box-shadow: 10px;
+    border-radius: 23x;
+}
+
+button{
+    box-shadow: 10px;
+    border-radius: 20px;
+
+}
