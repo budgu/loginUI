@@ -1,22 +1,35 @@
+/* sets background color */
+body {
+    background-color: lightblue;
+}
 
+/*centers login box and sets min width, min height, color */
 .loginBox{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     min-width: 100px;
     min-height: 100px;
-
+    
 }
 
+/*sets font for header */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*creates rounded edges on input boxes*/
 input{
     box-shadow: 10px;
     border-radius: 23x;
+   
 }
 
+/*creates rounded edges on button */
 button{
     box-shadow: 10px;
     border-radius: 20px;
-
+    background-color: plum;
 }
