@@ -1,19 +1,29 @@
-/* sets background color */
-body {
-    background-color: lightblue;
-}
 
-/*centers login box and sets min width, min height, color */
 .loginBox{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    min-width: 100px;
-    min-height: 100px;
-    
+    align-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: aqua;
 }
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+
+    min-height: 30vh;
+    min-width: 20%;
+
+    background-color: beige;
+
+    box-shadow: 15px;
+    border-radius: 20px;
+}
+
 
 /*sets font for header */
 h1 {

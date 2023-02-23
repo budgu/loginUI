@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <!-- imports css sheet-->
-    <link rel="stylesheet" href="loginCSS.css" type="text/css">
+    <link href="loginCSS.css" rel="stylesheet">
 </head>
 
 
@@ -19,20 +19,26 @@
     --> 
 
 
-    <!-- creates loginBox class that contains input boxes and sign-in button -->
+    <!-- creates loginBox parent container -->
     <div class="loginBox">
-        <h1>Sign In</h1>
-
-        <!-- User input box-->
-        <input type="text" placeholder="username">
-        <br>
-
-        <!--Password box-->
-        <input type="password" placeholder="password">
-        <br>
         
-        <!-- Sign in button-->
-        <button type="button">Sign in</button>
+        <!-- creates login child container-->
+        <div class="login">
+            <h1>Sign In</h1>
+
+            <!-- User input box-->
+            <input type="text" placeholder="username">
+            <br>
+        
+            <!--Password box-->
+            <input type="password" placeholder="password">
+            <br>
+                
+            <!-- Sign in button-->
+            <button type="button">Sign in</button>
+    
+        </div>
+
     </div>
 
 </body>
